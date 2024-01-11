@@ -8,7 +8,7 @@ export default function Accordion({ title, children }: AccordionProps) {
     <div>
       <h3>{title}</h3>
       <div>
-        <p>{children}</p>
+        {children}
       </div>
     </div>
   )
